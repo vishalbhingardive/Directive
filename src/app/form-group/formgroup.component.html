@@ -1,0 +1,6 @@
+<div class="container">
+    <form class="form-group"[formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <label>First Name</label><input type="text" class="form-control" formControllerName="fname" >
+    <label>Last Name</label><input type="text" class="form-control" formControllerName="lname" required ><br>
+    <input type="submit" value="submit">
+    </form>  
